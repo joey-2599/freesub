@@ -6,18 +6,16 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 95.163.232.171
-  port: 14443
-  uuid: 365de9e9-ba29-4819-af2d-766f9638e3be
+  server: 185.229.9.157
+  port: 443
+  uuid: 9e4f675b-d6bf-42d1-be55-389f622783af
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: media-se.compressor.work
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: 95.163.232.171
+  reality-opts:
+    public-key: JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k
+  servername: 360.yandex.ru
+  client-fingerprint: safari
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
   server: fbsv6.guardora.pro
